@@ -1,6 +1,8 @@
 # Node App 
 
-Starts nodemon behind the scenes:
+Nodejs app with express and ejs.
+
+Start app (starts nodemon behind the scenes):
 ```
 npm start
 ```
