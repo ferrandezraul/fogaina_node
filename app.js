@@ -6,6 +6,8 @@ const port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 
+app.use(express.static(__dirname + '/public'));
+
 app.get('/', (req, res) => {
     res.render('layout', { 
         page: 'home'
@@ -32,8 +34,12 @@ app.get('/cafeteria', (req, res) => {
     res.render('layout', { page: 'cafeteria'});
 });
 
-app.get('/on-som', (req, res) => {
-    res.render('layout', { page: 'on-som'});
+app.get('/on-trobarnos', (req, res) => {
+    res.render('layout', { page: 'on-trobarnos'});
+});
+
+app.get('/on-mes-trobarnos', (req, res) => {
+    res.render('layout', { page: 'on-mes-trobarnos'});
 });
 
 app.listen(port, () => {
