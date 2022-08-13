@@ -14,6 +14,5 @@ npm run lint
 
 
 TODO
-Bootstrap more fore ruby?
-Foundation?
-Strapi?
+Use https://getbootstrap.com/docs/5.0/components/card/#grid-cards
+with ejs and for loop

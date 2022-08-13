@@ -1,3 +1,20 @@
 <div class="container">
     <h2>Pans</h2>
+
+    <% for (var padre in data){ %>
+
+        <% for (var pan in data[padre]){ %>
+            <% console.log(pan + ": " + data[padre][pan]); %>
+
+            <% for (var attribute in data[padre][pan]){ %>
+                <% console.log(attribute + ": " + data[padre][pan][attribute]); %>
+    
+                
+            <% } %>
+
+        <% } %>
+
+    <% } %>
+
+   
 </div>
