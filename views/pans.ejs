@@ -1,20 +1,17 @@
 <div class="container">
-    <h2>Pans</h2>
 
-    <% for (var padre in data){ %>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
 
-        <% for (var pan in data[padre]){ %>
-            <% console.log(pan + ": " + data[padre][pan]); %>
-
-            <% for (var attribute in data[padre][pan]){ %>
-                <% console.log(attribute + ": " + data[padre][pan][attribute]); %>
-    
-                
-            <% } %>
-
-        <% } %>
-
+    <% for (var panes in data){ %> 
+        <% for (var pan in data[panes]){ %> 
+            <div class="col">
+                <div class="card">
+                    <%- include('pan/show', { pan: data[panes][pan] } ); %>
+                </div>
+            </div>
+        <% } %> 
     <% } %>
 
-   
+  </div>
+
 </div>

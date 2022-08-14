@@ -1,0 +1,20 @@
+
+
+    <% console.log('pan' + ": " + pan); %> 
+    <% console.log('name' + ": " + pan.name); %> 
+    <% console.log('description' + ": " + pan.description); %> 
+    <% console.log('image' + ": " + pan.image); %> 
+
+    <img src='<%= pan.image %>'  class="card-img-top" alt='<%= pan.name %>'  />
+
+    <div class="card-body">
+        <h5 class="card-title"><%= pan.name %> </h5>
+        <p class="card-text">
+            <%= pan.description %> 
+        </p>
+        <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </p>
+    </div>        
+
+
