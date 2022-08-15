@@ -1,4 +1,5 @@
 const pans = require('./pans.js');
+const categoriasCafeteria = require('./categoriasCafeteria.js');
 
 const express = require('express');
 
@@ -31,7 +32,7 @@ app.get('/disponibilitat', (req, res) => {
 });
 
 app.get('/cafeteria', (req, res) => {
-    res.render('layout', { page: 'cafeteria', data: {} });
+    res.render('layout', { page: 'cafeteria', data: categoriasCafeteria });
 });
 
 app.get('/on-trobarnos', (req, res) => {

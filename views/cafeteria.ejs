@@ -1,3 +1,17 @@
 <div class="container">
-    <h2>Cafeteria</h2>
-</div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  
+      <% for (var categoriasCafeteria in data){ %> 
+          <% for (var categoria in data[categoriasCafeteria]){ %> 
+              <div class="col">
+                  <div class="card">
+                      <%- include('cafeteria/show', { categoria: data[categoriasCafeteria][categoria] } ); %>
+                  </div>
+              </div>
+          <% } %> 
+      <% } %>
+  
+    </div>
+  
+  </div>
