@@ -4,10 +4,10 @@ Development and test uses the heroku-18 remote. (with URL https://lafogainatest1
 
 Te deploy to production use:
 ```
-git push heroku master
+git push heroku main
 ```
 
 To deploy to development use:
 ```
-git push heroku-dev master
+git push heroku-dev main
 ```
