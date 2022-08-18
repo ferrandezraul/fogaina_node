@@ -5,7 +5,8 @@ exports.pans = {
         description: "Un pa fet amb una barreja de farines integrals de varietats antigues de blat (espelta, kamut, xeixa ...) cultivats per petits productors, format de motlle i fet amb massa mare. Hem aconseguit aquest pa gràcies a la tècnica del Soaker: grans de blat i d'arròs integral cuits que aporten un extra d'esponjositat i humitat a la molla. Adquiriu sabor i salut a un preu d'escàndol!",
         images: [
             "images/pans/soca.jpg",
-            "images/pans/soca2.jpg"
+            "images/pans/soca2.jpg",
+            "images/pans/soca3.jpg"
         ]
     },
     "pages": {
@@ -13,6 +14,7 @@ exports.pans = {
         description: "Sens dubte el pa que més ens va costar definir-ne la fórmula. Sembla mentida: un pa tan senzill a primera vista i, precisament, per això, ens va donar molta feina, perquè volíem fer un pa senzill que no fos vulgar. Farina semiblanca de molí de pedra i una massa mare natural, que el doten d'una ànima làctica i suau, fugint del què és insípid. El forn amb solera de pedra és el company ideal per aconseguir una bona fogassa. Pa de pagés de 600gr i de 1Kg.",
         images: [
             "images/pans/padepages.jpg",
+            "images/pans/padepages2.jpg",
             "images/pans/padepages3.jpg"
         ] 
     },
@@ -21,6 +23,7 @@ exports.pans = {
         description: "Motivats per aconseguir una fogassa similar al pa de pagès, però amb la intenció de proveir-lo de més fibra i sabor, i un millor alveolat, sense ajuda de llevat, només amb una massa mare jove, i afegint-t'hi farines integrals de blat i de sègol. Vam haver d'anar pujant la hidratació de la massa, que després es va convertir tècnicament en el repte per als nous forners  de la Fogaina. El forn a  265 ºC i molta humitat són l'últim esglaó per aconseguir una bonica i daurada fogassa.",
         images: [
             "images/pans/rustic.jpg",
+            "images/pans/rustic2.jpg",
             "images/pans/rustic3.jpg"
         ]
     },
@@ -29,6 +32,7 @@ exports.pans = {
         description: "Agafem la massa del Rústic i hi afegim una barreja de llavors torrades (lli, sèsam, flocs de civada, pipes de gira-sol )i deixades en remull... Més gust, si és possible, a la nostra massa rústica!",
         images: [
             "images/pans/pigat.jpg",
+            "images/pans/pigat2.jpg",
             "images/pans/pigat3.jpg"
         ]
     },
@@ -45,6 +49,7 @@ exports.pans = {
         description: "Per als esportistes, puristes, integristes, espeltatians... No hi ha millor plaer que un pa 100 % espelta i quasi integral, amb la seva dosi de massa mare d'espelta, i amenitzat amb unes pipes de gira-sol torrades. Molt bon gust i llarga conservació.",
         images: [
             "images/pans/espelta.jpg",
+            "images/pans/espelta2.jpg",
             "images/pans/espelta3.jpg"
         ]
     },
@@ -61,7 +66,8 @@ exports.pans = {
         description: "Una fleca amb un bon forn no es pot permetre no coure unes coques de forner. El motiu és el ritme de cocció que ens ofereix el nostre forn. Pugem el forn fins a quasi 300 ºC . El procés de format, estirat i repòs és gradual començant pel pre-format i fins a l'últim estirat a la mateixa pala, un bon raig d'oli d'oliva, empolsinada de sucre i cap a dins! Quan surt, una ruixada amb anís per cristal·litzar el sucre... No us podeu imaginar la fragància que omple tot l'obrador.",
         images: [
             "images/pans/cocaforner.jpg",
-            "images/pans/cocaforner2.jpg"
+            "images/pans/cocaforner2.jpg",
+            "images/pans/cocaforner3.jpg"
         ]
     },
     "pacoca": {
@@ -69,7 +75,8 @@ exports.pans = {
         description: "Pel tipus de forn que teníem ens era difícil oferir barres tradicionals. Així que aquest és el nostre producte que més s'adaptava a l'hora de l'entrepà. És una mena de xapata allargada, alveolada i de crosta fina. El toc d'oli d'oliva i el de gira-sol, tots dos d'altíssima qualitat, li donen un sabor i una textura particulars. Ara, ja fem barres, però qualsevol deixa de fer el pa de coca amb la d’aficionats que té!",
         images: [
             "images/pans/padecoca.jpg",
-            "images/pans/padecoca2.jpg"
+            "images/pans/padecoca2.jpg",
+            "images/pans/padecoca3.jpg"
         ]
     },
     "brotnegre": {
@@ -77,6 +84,7 @@ exports.pans = {
         description: "Si tenim un pa que desvetlla passions confrontades aquest és el Brot. Un panot  de sègol integral, una mica de blat integral i massa mare de sègol. La cultura del sègol a la Mediterrània és escassa, per això li donem aquesta oportunitat, a més de tastar una cosa ben diferent i aromàtica, menjareu pura salut i tindreu a les vostres mans un pa que dura molts dies. Acompanyeu-lo de formatges forts, anxoves, patés, mantega o melmelada amarga ...",
         images: [
             "images/pans/brotnegre.jpg",
+            "images/pans/brotnegre2.jpg",
             "images/pans/brotnegre3.jpg"
         ]
     },
@@ -85,6 +93,7 @@ exports.pans = {
         description: "Per què hem de renunciar als pans de motllo blancs i esponjosos que ofereixen les marques industrials? Si a més aconseguim que siguin més bons i saludables ... motllo blanc i tendre, fet amb llet vegetal. Farina de blat T80. Massa mare i preferment. I a sobre, vegà!! Ja que me substituit la mantega pel tang Zhong, una tècnica coreana que li dona aquesta amorositat i també el gust dolcet.",
         images: [
             "images/pans/bembo.jpg",
+            "images/pans/bembo2.jpg",
             "images/pans/bembo3.jpg"
         ]
     },
@@ -93,6 +102,7 @@ exports.pans = {
         description: "Una mica obligats per la demanda, i limitats per les 'traces', finalment ens vam decidir a fer un pa 'sense gluten', que per les condicions del nostre obrador, ens impedeix de certificar-lo per a celíacs. La nostra intenció des del primer moment era aconseguir un molt bon pa sense gluten. Hem après unes quantes coses sobre mètodes i nous ingredients. Així que esperem estar a l'alçada i que el gaudiu.",
         images: [
             "images/pans/fajol.jpg",
+            "images/pans/fajol2.jpg",
             "images/pans/fajol3.jpg"
         ]
     },
@@ -124,7 +134,6 @@ exports.pans = {
         name: "Monococum",
         description: "Pa semiintegral fermentat només amb massa mare, amb poca acidesa i sabor que recorda a llegums, té molt poc contingut de gluten i alt contingut de fibra cosa que el fa molt més digerible. Fet amb Blat monococcum, que é la primera varietat de blat domesticada per l'ésser humà fa més de 10.000 anys i que donaria origen als blats moderns. ",
         images: [
-            "images/pans/monococum.jpg",
             "images/pans/monococum.jpg"
         ]
     },
@@ -148,7 +157,6 @@ exports.pans = {
         name: "Koulouri",
         description: "Pa tradicional grec, de farina blanca, i semi integral, amb tahina, mel i llavors de sèsam. Aquests panets són una delícia... s'assemblen als Bagels... són bonics i aromàtics",
         images: [
-            "images/pans/Kouluris.jpg",
             "images/pans/Kouluris.jpg"
         ]
     },
@@ -156,7 +164,6 @@ exports.pans = {
         name: "Tano",
         description: "Panet blanc i tendre, fet amb llet vegetal. Farina de blat T80. Massa mare i preferment. Ideal per als entrepans de la mainada.",
         images: [
-            "images/pans/tanos.jpg",
             "images/pans/tanos.jpg"
         ]
     },
@@ -164,7 +171,6 @@ exports.pans = {
         name: "Llonguet",
         description: "Pa tradicional català, fet amb farina blanca, massa mare, una mica de llevat i fermentació llarga. és un panet allargat amb una única grenya transversal a la part superior. És típic de les Illes Balears i de Catalunya. fruit d'un llarg treball de pastat. Això fa que sigui una peça de pa delicada, però molt apreciada.",
         images: [
-            "images/pans/llonguet.jpg",
             "images/pans/llonguet.jpg"
         ]
     },
@@ -180,7 +186,6 @@ exports.pans = {
         name: "Baguette",
         description: "",
         images: [
-            "images/pans/baguette.jpg",
             "images/pans/baguette.jpg"
         ]
     }

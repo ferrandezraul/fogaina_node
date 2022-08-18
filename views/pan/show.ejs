@@ -3,22 +3,26 @@
     <% console.log('pan' + ": " + pan); %> 
     <% console.log('name' + ": " + pan.name); %> 
     <% console.log('description' + ": " + pan.description); %> 
-    <% console.log('image' + ": " + pan.image); %> 
-    <% console.log('image2' + ": " + pan.image2); %> 
+    <% console.log('images' + ": " + pan.images); %> 
 
     <div class="card-img-top">
         <div id='<%= "carousel" + pan.name.split(" ").join("") %>' class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <% for (var i = 0; i < pan.images.length; i++){ %> 
+                <% if (pan.images.length > 1) { %>
 
-                    <% if (i == 0) { %>
-                        <button type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
-                    <% } else { %>
-                        <button type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide-to=<%= i %>  aria-label=<%= "Slide " + (i+1) %>></button>        
+                    <% for (var i = 0; i < pan.images.length; i++){ %> 
+
+                        <% if (i == 0) { %>
+                            <button type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+                        <% } else { %>
+                            <button type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide-to=<%= i %>  aria-label=<%= "Slide " + (i+1) %>></button>        
+                        <% } %>
+                        
                     <% } %>
-                    
+                
                 <% } %>
             </div>
+
             <div class="carousel-inner">
 
                 <% for (var i = 0; i < pan.images.length; i++){ %> 
@@ -36,14 +40,18 @@
                 <% } %>
 
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+
+            <% if (pan.images.length > 1) { %>
+                <button class="carousel-control-prev" type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            <% } %>
+
         </div>
     </div>
     
