@@ -57,8 +57,7 @@ exports.pans = {
         name: "Semi integral d’espelta",
         description: "Per aquells que voleu menjar sa, però no us tiran els pans integrals. Fogassa 100% de farina d’espelta. Pel tipus de gra que és l’espelta no es pot aconseguir mai una farina blanca, però aquesta és la d’extracció més blanca possible i de proximitat, quasi Km 0. Farina del pla de l’estany.",
         images: [
-            "images/pans/semi-integral-espelta.jpg",
-            "images/pans/semi-integral-espelta2.jpg"
+            "images/pans/semi-integral-espelta.jpg"
         ]
     },
     "coca": {
