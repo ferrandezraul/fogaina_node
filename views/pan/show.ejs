@@ -9,20 +9,32 @@
     <div class="card-img-top">
         <div id='<%= "carousel" + pan.name.split(" ").join("") %>' class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
-              <button type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <% for (var i = 0; i < pan.images.length; i++){ %> 
+
+                    <% if (i == 0) { %>
+                        <button type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+                    <% } else { %>
+                        <button type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide-to=<%= i %>  aria-label=<%= "Slide " + (i+1) %>></button>        
+                    <% } %>
+                    
+                <% } %>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src='<%= pan.image %>' class="d-block w-100" alt='<%= pan.name %>'>
-              </div>
-              <div class="carousel-item">
-                <img src='<%= pan.image2 %>' class="d-block w-100" alt='<%= pan.name %>'>
-              </div>
-              <div class="carousel-item">
-                <img src='<%= pan.image %>' class="d-block w-100" alt='<%= pan.name %>'>
-              </div>
+
+                <% for (var i = 0; i < pan.images.length; i++){ %> 
+
+                    <% if (i == 0) { %>
+                        <div class="carousel-item active">
+                            <img src='<%= pan.images[i] %>' class="d-block w-100" alt='<%= pan.name %>'>
+                          </div>
+                    <% } else { %>
+                        <div class="carousel-item">
+                            <img src='<%= pan.images[i] %>' class="d-block w-100" alt='<%= pan.name %>'>
+                          </div>
+                    <% } %>
+                    
+                <% } %>
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target='<%= "#carousel" + pan.name.split(" ").join(""); %>' data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
