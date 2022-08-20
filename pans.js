@@ -170,6 +170,7 @@ exports.pans = {
         name: "Llonguet",
         description: "Pa tradicional català, fet amb farina blanca, massa mare, una mica de llevat i fermentació llarga. és un panet allargat amb una única grenya transversal a la part superior. És típic de les Illes Balears i de Catalunya. fruit d'un llarg treball de pastat. Això fa que sigui una peça de pa delicada, però molt apreciada.",
         images: [
+            "images/pans/llonguet2.jpg",
             "images/pans/llonguet.jpg"
         ]
     },
