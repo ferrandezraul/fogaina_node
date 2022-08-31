@@ -2,7 +2,7 @@
   "name": "fogaina",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "engines" : { 
     "npm" : "8.x",
     "node" : "16.x"
