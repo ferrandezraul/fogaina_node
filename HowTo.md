@@ -13,9 +13,6 @@ git push heroku-dev main
 ```
 
 # TODO
-
-Finnish proper slideshow within cards independently from number of images.
-Add 3 images for pans that are available.
 Refactor and clean code.
 
 
