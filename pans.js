@@ -176,7 +176,7 @@ exports.pans = {
     },
     "xapates": {
         name: "Xapates",
-        description: "",
+        description: "És la mateixa massa del Pa de coca però en versió petita per a entrepans individuals.",
         images: [
             "images/pans/xapates.jpg",
             "images/pans/xapates3.jpg"
@@ -184,7 +184,7 @@ exports.pans = {
     },
     "baguette": {
         name: "Baguette",
-        description: "",
+        description: "Clàssic pa francès, en el nostre cas fet amb farines ecològiques semiintegral i blanca de blat, fermentada amb massa mare i un punt de llevat.",
         images: [
             "images/pans/baguette.jpg"
         ]
