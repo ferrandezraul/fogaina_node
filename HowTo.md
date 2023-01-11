@@ -34,6 +34,18 @@ In cyclic advanced settings, set your custom domain and you will be told to set 
 https://app.cyclic.sh/#/app/ferrandezraul-fogaina_node/advanced
 
 
+# Convert images
+
+Aumentar
+```
+convert IMG_1856.jpg -resize '1000x400' -gravity center -extent 1000x400  test.jpg
+```
+
+Disminuir
+```
+convert IMG_1856.png -resize '1920x1200^' -gravity center  -crop '1920x1200+0+0' test.png	
+```
+
 # TODO
 Refactor and clean code.
 Redirect lafogaina.con to www.lafogaina.com
