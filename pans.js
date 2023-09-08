@@ -188,5 +188,13 @@ exports.pans = {
         images: [
             "images/pans/baguette.jpg"
         ]
+    },
+    "panetViena": {
+        name: "Panet de Viena",
+        description: "El pa de Viena és un tipus de pa que es produeix segons un mètode desenvolupat a Viena (Àustria) al segle xix. Conté farina, aigua, sal, llevat, sucre i llet. La seva crosta és molt fina i brillant i s'usa vapor d'aigua en el procés de cocció. La seva molla és suau, fina i esponjosa, però lleugerament dolça.",
+        images: [
+            "images/pans/viena.jpg",
+            "images/pans/viena_tallat.jpg"
+        ]
     }
 }
