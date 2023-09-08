@@ -53,13 +53,13 @@ exports.pans = {
             "images/pans/espelta3.jpg"
         ]
     },
-    "semiespelta": {
-        name: "Semi integral d’espelta",
-        description: "Per aquells que voleu menjar sa, però no us tiran els pans integrals. Fogassa 100% de farina d’espelta. Pel tipus de gra que és l’espelta no es pot aconseguir mai una farina blanca, però aquesta és la d’extracció més blanca possible i de proximitat, quasi Km 0. Farina del pla de l’estany.",
-        images: [
-            "images/pans/semi-integral-espelta.jpg"
-        ]
-    },
+    // "semiespelta": {
+    //     name: "Semi integral d’espelta",
+    //     description: "Per aquells que voleu menjar sa, però no us tiran els pans integrals. Fogassa 100% de farina d’espelta. Pel tipus de gra que és l’espelta no es pot aconseguir mai una farina blanca, però aquesta és la d’extracció més blanca possible i de proximitat, quasi Km 0. Farina del pla de l’estany.",
+    //     images: [
+    //         "images/pans/semi-integral-espelta.jpg"
+    //     ]
+    // },
     "coca": {
         name: "Coca de forner",
         description: "Una fleca amb un bon forn no es pot permetre no coure unes coques de forner. El motiu és el ritme de cocció que ens ofereix el nostre forn. Pugem el forn fins a quasi 300 ºC . El procés de format, estirat i repòs és gradual començant pel pre-format i fins a l'últim estirat a la mateixa pala, un bon raig d'oli d'oliva, empolsinada de sucre i cap a dins! Quan surt, una ruixada amb anís per cristal·litzar el sucre... No us podeu imaginar la fragància que omple tot l'obrador.",
@@ -113,14 +113,14 @@ exports.pans = {
             "images/pans/croscat2.jpg"
         ]
     },
-    "fogassa": {
-        name: "Fogassa Integral",
-        description: "Farina de blat 100% integral y farina de blat antic fermentat només amb massa mare.",
-        images: [
-            "images/pans/fogassa_integral.jpg",
-            "images/pans/fogassa_integral2.jpg"
-        ]
-    },
+    // "fogassa": {
+    //     name: "Fogassa Integral",
+    //     description: "Farina de blat 100% integral y farina de blat antic fermentat només amb massa mare.",
+    //     images: [
+    //         "images/pans/fogassa_integral.jpg",
+    //         "images/pans/fogassa_integral2.jpg"
+    //     ]
+    // },
     "rugbrot": {
         name: "Rugbrot",
         description: "El rugbrød o pa de sègol danès és el més comunament consumit a Dinamarca. Mescla de farines de blat integral, farina de sègol integral, massa mare de sègol i llavors. Espectacular, una explosió de sabors, i a més, gràcies a les llavors dura molts dies fresc. El rugbrød amb mantega és la base essencial d'un dels més famosos sandvitxos oberts danesos, el smørrebrød.",
@@ -144,14 +144,14 @@ exports.pans = {
             "images/pans/olives2.jpg"
         ]
     },
-    "nous": {
-        name: "Pa de nous",
-        description: "Un dels especials de dissabte, fet amb massa de farina semi integral, farina de sègol i  nous torrades.",
-        images: [
-            "images/pans/nous.jpg",
-            "images/pans/nous2.jpg"
-        ]
-    },
+    // "nous": {
+    //     name: "Pa de nous",
+    //     description: "Un dels especials de dissabte, fet amb massa de farina semi integral, farina de sègol i  nous torrades.",
+    //     images: [
+    //         "images/pans/nous.jpg",
+    //         "images/pans/nous2.jpg"
+    //     ]
+    // },
     "koulouri": {
         name: "Koulouri",
         description: "Pa tradicional grec, de farina blanca, i semi integral, amb tahina, mel i llavors de sèsam. Aquests panets són una delícia... s'assemblen als Bagels... són bonics i aromàtics",
@@ -159,13 +159,13 @@ exports.pans = {
             "images/pans/Kouluris.jpg"
         ]
     },
-    "tano": {
-        name: "Tano",
-        description: "Panet blanc i tendre, fet amb llet vegetal. Farina de blat T80. Massa mare i preferment. Ideal per als entrepans de la mainada.",
-        images: [
-            "images/pans/tanos.jpg"
-        ]
-    },
+    // "tano": {
+    //     name: "Tano",
+    //     description: "Panet blanc i tendre, fet amb llet vegetal. Farina de blat T80. Massa mare i preferment. Ideal per als entrepans de la mainada.",
+    //     images: [
+    //         "images/pans/tanos.jpg"
+    //     ]
+    // },
     "llonguet": {
         name: "Llonguet",
         description: "Pa tradicional català, fet amb farina blanca, massa mare, una mica de llevat i fermentació llarga. és un panet allargat amb una única grenya transversal a la part superior. És típic de les Illes Balears i de Catalunya. fruit d'un llarg treball de pastat. Això fa que sigui una peça de pa delicada, però molt apreciada.",
