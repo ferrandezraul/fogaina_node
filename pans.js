@@ -5,8 +5,7 @@ exports.pans = {
         description: "Un pa fet amb una barreja de farines integrals de varietats antigues de blat (espelta, kamut, xeixa ...) cultivats per petits productors, format de motlle i fet amb massa mare. Hem aconseguit aquest pa gràcies a la tècnica del Soaker: grans de blat i d'arròs integral cuits que aporten un extra d'esponjositat i humitat a la molla. Adquiriu sabor i salut a un preu d'escàndol!",
         images: [
             "images/pans/soca.jpg",
-            "images/pans/soca2.jpg",
-            "images/pans/soca3.jpg"
+            "images/pans/soca2.jpg"
         ]
     },
     "pages": {
@@ -22,9 +21,8 @@ exports.pans = {
         name: "Rústic",
         description: "Motivats per aconseguir una fogassa similar al pa de pagès, però amb la intenció de proveir-lo de més fibra i sabor, i un millor alveolat, sense ajuda de llevat, només amb una massa mare jove, i afegint-t'hi farines integrals de blat i de sègol. Vam haver d'anar pujant la hidratació de la massa, que després es va convertir tècnicament en el repte per als nous forners  de la Fogaina. El forn a  265 ºC i molta humitat són l'últim esglaó per aconseguir una bonica i daurada fogassa.",
         images: [
-            "images/pans/rustic.jpg",
             "images/pans/rustic2.jpg",
-            "images/pans/rustic3.jpg"
+            "images/pans/rustic.jpg"
         ]
     },
     "pigat": {
@@ -32,8 +30,7 @@ exports.pans = {
         description: "Agafem la massa del Rústic i hi afegim una barreja de llavors torrades (lli, sèsam, flocs de civada, pipes de gira-sol )i deixades en remull... Més gust, si és possible, a la nostra massa rústica!",
         images: [
             "images/pans/pigat.jpg",
-            "images/pans/pigat2.jpg",
-            "images/pans/pigat3.jpg"
+            "images/pans/pigat2.jpg"
         ]
     },
     "tinosell": {
@@ -48,9 +45,7 @@ exports.pans = {
         name: "Espelta",
         description: "Per als esportistes, puristes, integristes, espeltatians... No hi ha millor plaer que un pa 100 % espelta i quasi integral, amb la seva dosi de massa mare d'espelta, i amenitzat amb unes pipes de gira-sol torrades. Molt bon gust i llarga conservació.",
         images: [
-            "images/pans/espelta.jpg",
-            "images/pans/espelta2.jpg",
-            "images/pans/espelta3.jpg"
+            "images/pans/espelta.jpg"
         ]
     },
     // "semiespelta": {
@@ -65,17 +60,14 @@ exports.pans = {
         description: "Una fleca amb un bon forn no es pot permetre no coure unes coques de forner. El motiu és el ritme de cocció que ens ofereix el nostre forn. Pugem el forn fins a quasi 300 ºC . El procés de format, estirat i repòs és gradual començant pel pre-format i fins a l'últim estirat a la mateixa pala, un bon raig d'oli d'oliva, empolsinada de sucre i cap a dins! Quan surt, una ruixada amb anís per cristal·litzar el sucre... No us podeu imaginar la fragància que omple tot l'obrador.",
         images: [
             "images/pans/cocaforner.jpg",
-            "images/pans/cocaforner2.jpg",
-            "images/pans/cocaforner3.jpg"
+            "images/pans/cocaforner2.jpg"
         ]
     },
     "pacoca": {
         name: "Pa de coca",
         description: "Pel tipus de forn que teníem ens era difícil oferir barres tradicionals. Així que aquest és el nostre producte que més s'adaptava a l'hora de l'entrepà. És una mena de xapata allargada, alveolada i de crosta fina. El toc d'oli d'oliva i el de gira-sol, tots dos d'altíssima qualitat, li donen un sabor i una textura particulars. Ara, ja fem barres, però qualsevol deixa de fer el pa de coca amb la d’aficionats que té!",
         images: [
-            "images/pans/padecoca.jpg",
-            "images/pans/padecoca2.jpg",
-            "images/pans/padecoca3.jpg"
+            "images/pans/padecoca.jpg"
         ]
     },
     "brotnegre": {
@@ -83,8 +75,7 @@ exports.pans = {
         description: "Si tenim un pa que desvetlla passions confrontades aquest és el Brot. Un panot  de sègol integral, una mica de blat integral i massa mare de sègol. La cultura del sègol a la Mediterrània és escassa, per això li donem aquesta oportunitat, a més de tastar una cosa ben diferent i aromàtica, menjareu pura salut i tindreu a les vostres mans un pa que dura molts dies. Acompanyeu-lo de formatges forts, anxoves, patés, mantega o melmelada amarga ...",
         images: [
             "images/pans/brotnegre.jpg",
-            "images/pans/brotnegre2.jpg",
-            "images/pans/brotnegre3.jpg"
+            "images/pans/brotnegre2.jpg"
         ]
     },
     "bembo": {
@@ -92,8 +83,7 @@ exports.pans = {
         description: "Per què hem de renunciar als pans de motllo blancs i esponjosos que ofereixen les marques industrials? Si a més aconseguim que siguin més bons i saludables ... motllo blanc i tendre, fet amb llet vegetal. Farina de blat T80. Massa mare i preferment. I a sobre, vegà!! Ja que me substituit la mantega pel tang Zhong, una tècnica coreana que li dona aquesta amorositat i també el gust dolcet.",
         images: [
             "images/pans/bembo.jpg",
-            "images/pans/bembo2.jpg",
-            "images/pans/bembo3.jpg"
+            "images/pans/bembo2.jpg"
         ]
     },
     "fajol": {
@@ -101,18 +91,17 @@ exports.pans = {
         description: "Una mica obligats per la demanda, i limitats per les 'traces', finalment ens vam decidir a fer un pa 'sense gluten', que per les condicions del nostre obrador, ens impedeix de certificar-lo per a celíacs. La nostra intenció des del primer moment era aconseguir un molt bon pa sense gluten. Hem après unes quantes coses sobre mètodes i nous ingredients. Així que esperem estar a l'alçada i que el gaudiu.",
         images: [
             "images/pans/fajol.jpg",
-            "images/pans/fajol2.jpg",
-            "images/pans/fajol3.jpg"
+            "images/pans/fajol2.jpg"
         ]
     },
-    "croscat": {
-        name: "Croscat",
-        description: "Fogassa petita de farina d'espelta. Per als puristes, que cuiden la salut però volen fogasses. Un pa 100 % espelta i quasi integral, amb la seva dosi de massa mare d'espelta, i amenitzat amb unes pipes de gira-sol torrades. Molt bon gust i llarga conservació.",
-        images: [
-            "images/pans/croscat.jpg",
-            "images/pans/croscat2.jpg"
-        ]
-    },
+    // "croscat": {
+    //     name: "Croscat",
+    //     description: "Fogassa petita de farina d'espelta. Per als puristes, que cuiden la salut però volen fogasses. Un pa 100 % espelta i quasi integral, amb la seva dosi de massa mare d'espelta, i amenitzat amb unes pipes de gira-sol torrades. Molt bon gust i llarga conservació.",
+    //     images: [
+    //         "images/pans/croscat.jpg",
+    //         "images/pans/croscat2.jpg"
+    //     ]
+    // },
     // "fogassa": {
     //     name: "Fogassa Integral",
     //     description: "Farina de blat 100% integral y farina de blat antic fermentat només amb massa mare.",
@@ -179,14 +168,15 @@ exports.pans = {
         description: "És la mateixa massa del Pa de coca però en versió petita per a entrepans individuals.",
         images: [
             "images/pans/xapates.jpg",
-            "images/pans/xapates3.jpg"
+            "images/pans/xapates2.jpg"
         ]
     },
     "baguette": {
         name: "Baguette",
         description: "Clàssic pa francès, en el nostre cas fet amb farines ecològiques semiintegral i blanca de blat, fermentada amb massa mare i un punt de llevat.",
         images: [
-            "images/pans/baguette.jpg"
+            "images/pans/baguette.jpg",
+            "images/pans/baguette2.jpg"
         ]
     },
     "panetViena": {
