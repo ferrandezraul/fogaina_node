@@ -186,5 +186,29 @@ exports.pans = {
             "images/pans/viena.jpg",
             "images/pans/viena_tallat.jpg"
         ]
+    },
+    "nanterre": {
+        name: "Nanterre",
+        description: "Pa d'origen francès, molt enriquit amb mantega de qualitat i ou de quilòmetre zero (més castanyer). No porta gaire sucre per convertir-lo en un pa més aviat neutre que quedi perfecte per fer biquinis o acompanyar-lo amb melmelades i confitures. Preferim el format en pa de motlle perquè mantingui la humitat durant més temps.",
+        images: [
+            "images/pans/nanterre.jpg",
+            "images/pans/nanterre2.jpg"
+        ]
+    },
+    "hamburguesa": {
+        name: "Pa d'hamburguesa",
+        description: "Amb la mateixa massa del nanterre (pa de brioix) fem els clàssics panets per a hamburgueses; tot i que també són ideals per al berenar de la mainada.",
+        images: [
+            "images/pans/hamburguesa.jpg"
+        ]
+    },
+    "bianya": {
+        name: "Pa de Bianya",
+        description: "El Bianya és un homenatge a la Vall Garrotxina que porta aquest nom ja què és on tradicionalment es cultivava el blat de moro per a consum humà. Per poder fer aquest pa utilitzem la tècnica de l'escalada que a més de donar estructura al pa li atorga una petita dolçor de manera natural. El resultat és un pa dens i humit amb una llarga durabilitat, perfecte per acompanyar-lo amb melmelades i formatges. En ser fet només amb massa mare i tenir una llarga fermentació (com tots els nostres pans) és molt digerible",
+        images: [
+            "images/pans/bianya.jpg",
+            "images/pans/bianya2.jpg",
+            "images/pans/bianya3.jpg"
+        ]
     }
 }
